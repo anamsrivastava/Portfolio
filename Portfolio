@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\Anam\Documents\portfolio style.css">
+    <title>My Portfolio</title>g
+</head>
+<body>g
+    <header>
+        <h1>Anam Srivastava</h1>
+        <p>Code with Purpose, Innovate with Passion </p>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="C:\Users\Anam\Downloads\WhatsApp Image 2024-10-13 at 8.32.42 PM.jpeg" alt="Anam Srivastava" class="profile-image">
+        <p>I am currently pursuing a Bachelor’s degree in Computer Applications (BCA) at Christ University, Delhi, 
+            where I am deepening my knowledge and skills in the field of technology. Prior to this, I completed my schooling 
+            at Lotus Valley International School in Noida, where I developed a strong foundation in critical thinking and 
+            problem-solving. <br>
+My passion for coding drives me to explore innovative solutions and continuously improve my programming skills.
+ I enjoy tackling challenges and am eager to apply my knowledge in real-world scenarios. As I embark on this academic journey,
+  I look forward to connecting with like-minded individuals and contributing to exciting projects in the tech world.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>SUNBURN ARENA MUSIC FESTIVAL</h3>
+            <p>A WebPage on Sunburn Festival.</p>
+            <img src="C:\Users\Anam\Pictures\Screenshots\Screenshot (77).png" alt="Project 1">
+    
+        <!-- Add more projects as needed -->
+    </section>
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <p><a href="C:\Users\Anam\Downloads\RESUME.pdf" download>Download My Resume</a></p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email:<a href="mailto:anam607050@gmail.com">anam607050@gmail.com</a></p>
+        <p>Phone: 9311982967</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Anam Srivastava. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #171616;
+}
+
+header {
+    background: #2c0719;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fbf8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    width: 150px;
+    border-radius: 70%;
+    text-align: center; /* Centers the image */
+}
+
+.projects {
+    text-align: center;
+    margin: 10px;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
